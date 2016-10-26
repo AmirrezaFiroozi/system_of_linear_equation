@@ -16,7 +16,7 @@ int main()
     // People call Crammar
     x=((ar*b2)-(a2*br))/((a1*b2)-(a2*b1));
     y=((a1*br)-(ar*b1))/((a1*b2)-(a2*b1));
-    printf("Your first variable (x) is :%f and your second variable is :%f\n",x,y);
+    printf("Your first variable (x) is :%f and your second variable (y) is :%f\n",x,y);
 
 return 0;
 }
