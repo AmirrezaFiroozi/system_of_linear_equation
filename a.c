@@ -17,6 +17,7 @@
 
 int main()
 {
+    using namespace std;
     float a1,a2,ar,b1,b2,br,x,y;
     printf("Please enter your coefficients of your first equation in order \n for example for 2x+2y=14 you write 2 2 14\n ");
     scanf("%f%f%f", &a1,&a2,&ar);
@@ -25,9 +26,9 @@ int main()
     if ((a1/b1)==(a2/b2))
     {
     	if ((a1/b1)==(ar/br))
-    	printf(" Your equations have" BLU " unlimited" RESET" answers");
+    	printf(" Your equations have" BLU " unlimited" RESET " answers");
     	else
-    	printf(" Your equations do "RED"not"RESET" have any answers");
+    	printf(" Your equations do " RED "NOT" RESET " have any answers");
     }
     else
     {
@@ -36,7 +37,7 @@ int main()
     // People call Crammar
     x=((ar*b2)-(a2*br))/((a1*b2)-(a2*b1));
     y=((a1*br)-(ar*b1))/((a1*b2)-(a2*b1));
-    printf(" Your first variable"BLU" (x)"RESET" is :"GRN"%3.2f/%3.2f = %3.4f"RESET" and your second variable "BLU"(y) "RESET"is :"GRN"%3.2f/%3.2f = %3.4f\n ",s1,m,x,s2,m,y);
+    printf(" Your first variable" BLU " (x) " RESET " is :" GRN "%3.2f/%3.2f = %3.4f" RESET " and your second variable " BLU " (y) "RESET" is :" GRN "%3.2f/%3.2f = %3.4f\n " RESET " ",s1,m,x,s2,m,y);
     }
 return 0;
 }
